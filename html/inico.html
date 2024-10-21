@@ -13,21 +13,35 @@
 <body>
   <header>
     <div class="header-container">
-        <img class="logo" src="/img/LOGO BARRACAS 2020 (1).png" alt="">
+        <img class="logo" src="/img/LOGO BARRACAS 2020 (1).png" alt="Club Atlético Barracas Juniors Logo">
         <button class="menu-btn" onclick="toggleMenu()" id="icono-nav">&#9776;</button>
         <nav class="nav" id="nav">
             <ul class="nav-list">
-                <li><a href="/html/inico.html#home" onclick="seleccionar(this)"><i class="bi bi-house-door-fill"></i></a></li>
+              <li class="nav-item social-icons">
+                <a href="https://www.instagram.com/clubatleticobarracasjuniors/" target="_blank" aria-label="Instagram">
+                    <img src="/img/instagram.png" alt="Instagram" width="24" height="24">
+                </a>
+                <a href="https://wa.me/541131047235" target="_blank" aria-label="WhatsApp">
+                    <img src="/img/whatsapp.png" alt="WhatsApp" width="24" height="24">
+                </a>
+                <a href="https://www.facebook.com/clubatleticobarracasjuniors" target="_blank" aria-label="Facebook">
+                    <img src="/img/facebook.png" alt="Facebook" width="24" height="24">
+                </a>
+            </li>
+                <li><a href="/html/inicio.html#home" onclick="seleccionar(this)"><i class="bi bi-house-door-fill"></i></a></li>
                 <li class="nav-item dropdown">
-                    <a href="/html/inico.html#actividades" id="actividadesLink" onclick="seleccionar(this)">Actividades</a>
+                    <a href="/html/inicio.html#actividades" id="actividadesLink" onclick="seleccionar(this)">Actividades</a>
                 </li>
-                <li><a href="/html/inico.html#info" onclick="seleccionar(this)">Información</a></li>
-                <li><a href="/html/inico.html#history" onclick="seleccionar(this)">Historia</a></li>
-                <li><a href="/html/inico.html#contact" onclick="seleccionar(this)">Contacto</a></li>
+                <li><a href="/html/inicio.html#info" onclick="seleccionar(this)">Información</a></li>
+                <li><a href="/html/inicio.html#history" onclick="seleccionar(this)">Historia</a></li>
+                <li><a href="/html/inicio.html#contact" onclick="seleccionar(this)">Contacto</a></li>
+                <!-- Redes sociales -->
+                
             </ul>
         </nav>
     </div>
 </header>
+
 
 
 <!-- <section id="home">
@@ -228,6 +242,7 @@
 <section id="actividades">
   <h2>Nuestras Actividades</h2>
   <p>Ofrecemos una variedad de actividades deportivas y recreativas para todas las edades.</p>
+  <p>Toca la actividad y veras los horarios</p>
   <div class="activities-container">
     <a href="/html/basquet.html" class="activity-link">
       <img src="/img/BasquetEquipo.jpg" alt="Escuelita De Basquet" class="activity-image horizontal">
@@ -946,13 +961,20 @@ Carlos Anglese y Pancracio Ingegnieri, en aquel momento Presidente y Tesorero de
           <p>&copy; 2024 Club Atlético Barracas Juniors. Todos los derechos reservados.</p>
           <div class="social-icons">
               <a href="https://www.instagram.com/clubatleticobarracasjuniors/" target="_blank" aria-label="Instagram">
-                  <i class="bi bi-instagram"></i>
+                  <img src="/img/instagram.png" alt="Instagram" width="32" height="32">
               </a>
-              <a href="https://wa.me/541131047235" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a> <!-- Cambia el número a tu número de WhatsApp -->
+              <a href="https://wa.me/541131047235" target="_blank" aria-label="WhatsApp">
+                  <img src="/img/whatsapp.png" alt="WhatsApp" width="32" height="32">
+              </a>
+              <a href="https://www.facebook.com/clubatleticobarracasjuniors" target="_blank" aria-label="Facebook">
+                  <img src="/img/facebook.png" alt="Facebook" width="32" height="32">
+              </a>
           </div>
       </div>
   </div>
 </footer>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <script src="/js/scrip.js"></script>
